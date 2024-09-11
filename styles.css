@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'roboto';
+    /* border:1px dashed red; */
+}
+
+body{
+    background-color: black;
+}
+
+.post{
+    margin:auto;
+    width: 400px;
+    height: 500px;
+    background-color:white;
+    margin-top: 40px;
+}
+
+.post-header{
+    height: 50px;
+    display:flex;
+    align-items: center;
+}
+
+.html-icon{
+    font-size:26px;
+    padding-left: 10px;
+}
+
+.next-icon{
+    display: flex;
+    flex-direction: column;
+    padding-left:10px;
+    font-size: 12px;
+    align-items: flex-start;
+}
+
+.settings{
+    margin-left: auto;
+    margin-right: 18px;
+    font-size:25px;
+}
+
+.post-img{
+    height: 280px;
+}
+
+.post-img img{
+    height: 100%;
+    width: 100%;
+}   
+
+.post-body{
+    height: 180px;
+}
+
+.body-icons{
+
+    height:40px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-size:28px;
+    margin-left: 10px;
+    padding-top: 15px;
+    
+}
+
+.bookmark{
+    margin-left: auto;
+    margin-right: 14px;
+}
+
+.footer{
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+.text-top{
+    padding-top: 20px;
+}
+.text-bottom{
+    padding-top: 8px;
+}
